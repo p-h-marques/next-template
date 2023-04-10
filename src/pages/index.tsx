@@ -1,9 +1,3 @@
-import styled from 'styled-components';
-
 export default function Home() {
-  return <Title>Hello World!!!</Title>;
+  return <p>Hello World!!!</p>;
 }
-
-const Title = styled.h1`
-  color: red;
-`;
